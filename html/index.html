@@ -7,6 +7,27 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
+    <section class="container">
+        <div id="sidebar">
+            <h1 id="page-header">Let's Draw on a HTML5 Canvas</h1>
+            <label for="language-select" id="language-select-label">Select a language:</label>
+
+            <select name="languages" id="language-select">
+                <option value="en">English</option>
+                <option value="jp">日本語</option>
+            </select>
+
+            <label for="colour" id="colour-label">Colour:</label>
+            <input id="colour" name="colour" type="color">
+            <label for="width" id="width-label">Width:</label>
+            <input id="width" name="width" type="number" value="3" min="1" max="10">
+            <button id="clear" type="button">Clear canvas</button>
+        </div>
+        <div class="board">
+            <canvas id="board"></canvas>
+        </div>
+
+    </section>
     <script src="../js/scripts.js"></script>
 </body>
 </html>
