@@ -49,4 +49,7 @@ canvas {
     border: 10px solid black;
     flex-grow: 1;  
     height: 100%;  
+    cursor: pointer;
 }
+
+
